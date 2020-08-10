@@ -1,0 +1,2073 @@
+DEBUG:paramiko.transport:starting thread (client mode): 0xdb8bba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-dropbear_2012.55
+INFO:paramiko.transport:Connected (version 2.0, client dropbear_2012.55)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group1-sha1', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes256-cbc', 'twofish256-cbc', 'twofish-cbc', 'twofish128-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes256-cbc', 'twofish256-cbc', 'twofish-cbc', 'twofish128-cbc'] client mac:['hmac-sha1-96', 'hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1-96', 'hmac-sha1', 'hmac-md5'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.0.1: b'77b70e394c88690335979660fb7ee03f'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) failed.
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x5ab4ba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 2 days 08:24:02
+
+Last reboot reason: unexpected restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$1> 
+[16C[K
+[16C
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'conf show\n'
+DEBUG:netmiko:send_command_timing current output: 
+DEBUG:netmiko:read_channel: conf show
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:send_command_timing final output: 
+DEBUG:netmiko:write_channel: b'conf show'
+DEBUG:netmiko:read_channel: conf show
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xf6b1ba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 2 days 08:26:14
+
+Last reboot reason: unexpected restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$2> 
+[16C[K
+[16C
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x356dba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 2 days 08:26:57
+
+Last reboot reason: unexpected restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$2> 
+[16C[K
+[16C
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'conf show\n'
+DEBUG:netmiko:send_command_timing current output: 
+DEBUG:netmiko:read_channel: conf show
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:send_command_timing final output: 
+DEBUG:netmiko:write_channel: b'conf show'
+DEBUG:netmiko:read_channel: conf show
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xb39bba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 2 days 08:27:40
+
+Last reboot reason: unexpected restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$1> 
+[16C[K
+[16C
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'conf show\n'
+DEBUG:netmiko:send_command_timing current output: 
+DEBUG:netmiko:read_channel: conf show
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:send_command_timing final output: 
+DEBUG:netmiko:write_channel: b'restart y'
+DEBUG:netmiko:read_channel: restart y
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x6407ba60
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:22:03
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$2> 
+[16C[K
+[16C
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xb554ca30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:22:24
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$2> 
+[16C[K
+[16C
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'conf show\n'
+DEBUG:netmiko:send_command_timing current output: 
+DEBUG:netmiko:read_channel: conf show
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:send_command_timing final output: 
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x19cbba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'conf show'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:23:43
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$2> 
+[16C[K
+[16Cconf show
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xf084ba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'conf show'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:24:26
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$2> 
+[16C[K
+[16Cconf show
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x4aeaba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'c?'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:25:38
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$3> 
+[16C[K
+[16Cc?
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xa0cdba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'c?'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:26:36
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$3> 
+[16C[K
+[16Cc?
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xbfbcba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'c?'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:26:49
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$3> 
+[16C[K
+[16Cc?
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x3c3cba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'c? \n'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:27:01
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$3> 
+[16C[K
+[16Cc? 
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xae46ba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'c? \r\n'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:27:52
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$3> 
+[16C[K
+[16Cc? 
+
+
+
+Unknown command "c?"
+
+Use ? for help
+
+
+Unknown node$3> 
+[16C[K
+[16C
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x9ebdba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'conf show\r\n'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:28:33
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$3> 
+[16C[K
+[16Cconf show
+
+# R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+
+
+#Environment
+
+ set CONFIG_GENERATED "WEB INTERFACE"
+
+   
+
+#System parameters
+
+ #Factory password mode: single
+
+ sys name Unknown node
+
+ sys prompt Unknown node
+
+ sys user root
+
+   
+
+#Radio module parameters
+
+ rf rf5.0 grid 40 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 20 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 10 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 5 6050-6425/5,6052-6425/5
+
+ rf rf5.0 band 20
+
+ rf rf5.0 mimo
+
+ rf rf5.0 freq 6060 bitr 130000 sid 10101010 burst
+
+ rf rf5.0 txpwr 0.5 pwrctl 
+
+   
+
+#DFS configuration
+
+ dfs rf5.0 dfsonly
+
+ dfs rf5.0 freq 6060
+
+ dfs rf5.0 cot off
+
+   
+
+#Interfaces parameters
+
+ ifc lo0    127.0.0.1/32
+
+ ifc eth0   media auto mtu 1500 up
+
+ ifc eth0   10.10.20.1/24
+
+ ifc rf5.0  mtu 1500 up
+
+ ifc svi1   info "L2 Management Interface"
+
+ ifc svi1   mtu 1500 up
+
+            # group 1
+
+ ifc svi1   192.168.9.140/24
+
+   
+
+#QoS manager
+
+ qm option dot1p rtp nodscp icmp
+
+   
+
+#MINT configuration
+
+ mint rf5.0 -name "Master"
+
+ mint rf5.0 -nodeid 09978
+
+ mint rf5.0 -type master
+
+ mint rf5.0 -mode fixed
+
+ mint rf5.0 -mulcast 3
+
+ mint rf5.0 -scrambling
+
+ mint rf5.0 -autobitrate
+
+ mint rf5.0 -hiamp 2 -loamp 0
+
+ mint rf5.0 -log
+
+ mint rf5.0 -roaming leader
+
+ mint rf5.0 -authmode public
+
+ mint rf5.0 -airupdate passive
+
+ mint rf5.0 -rcmdserver enabled
+
+ mint rf5.0 start
+
+ 
+
+ mint rf5.0 tdma mode=Master win=5 dist=70 dlp=0 
+
+ mint rf5.0 tdma rssi=-35 turbo
+
+ mint rf5.0 tdma start
+
+ 
+
+   
+
+#MAC Switch config
+
+ switch group 1 add 1 eth0 rf5.0 
+
+ switch group 1 igmp-snooping on
+
+ switch group 1 igmp-snooping router-port on
+
+      # group 1 attached to 'svi1'
+
+ switch group 1 start
+
+ 
+
+ switch start
+
+   
+
+#Switch Virtual Interface config
+
+ svi 1 group 1
+
+   
+
+#SSH server configuration
+
+ sshd start
+
+   
+
+#WEB configurator
+
+ webcfg start
+
+   
+
+#LLDP parameters
+
+ lldp eth0 enable txrx
+
+   
+
+
+Unknown node$3> 
+[16C[K
+[16C
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x2d24ca30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:29:58
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$3> 
+[16C[K
+[16C
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'conf show\n'
+DEBUG:netmiko:send_command_timing current output: 
+DEBUG:netmiko:read_channel: conf show
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:send_command_timing final output: 
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x3258ba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'conf show\r\n'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:30:56
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$3> 
+[16C[K
+[16Cconf show
+
+# R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+
+
+#Environment
+
+ set CONFIG_GENERATED "WEB INTERFACE"
+
+   
+
+#System parameters
+
+ #Factory password mode: single
+
+ sys name Unknown node
+
+ sys prompt Unknown node
+
+ sys user root
+
+   
+
+#Radio module parameters
+
+ rf rf5.0 grid 40 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 20 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 10 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 5 6050-6425/5,6052-6425/5
+
+ rf rf5.0 band 20
+
+ rf rf5.0 mimo
+
+ rf rf5.0 freq 6060 bitr 130000 sid 10101010 burst
+
+ rf rf5.0 txpwr 0.5 pwrctl 
+
+   
+
+#DFS configuration
+
+ dfs rf5.0 dfsonly
+
+ dfs rf5.0 freq 6060
+
+ dfs rf5.0 cot off
+
+   
+
+#Interfaces parameters
+
+ ifc lo0    127.0.0.1/32
+
+ ifc eth0   media auto mtu 1500 up
+
+ ifc eth0   10.10.20.1/24
+
+ ifc rf5.0  mtu 1500 up
+
+ ifc svi1   info "L2 Management Interface"
+
+ ifc svi1   mtu 1500 up
+
+            # group 1
+
+ ifc svi1   192.168.9.140/24
+
+   
+
+#QoS manager
+
+ qm option dot1p rtp nodscp icmp
+
+   
+
+#MINT configuration
+
+ mint rf5.0 -name "Master"
+
+ mint rf5.0 -nodeid 09978
+
+ mint rf5.0 -type master
+
+ mint rf5.0 -mode fixed
+
+ mint rf5.0 -mulcast 3
+
+ mint rf5.0 -scrambling
+
+ mint rf5.0 -autobitrate
+
+ mint rf5.0 -hiamp 2 -loamp 0
+
+ mint rf5.0 -log
+
+ mint rf5.0 -roaming leader
+
+ mint rf5.0 -authmode public
+
+ mint rf5.0 -airupdate passive
+
+ mint rf5.0 -rcmdserver enabled
+
+ mint rf5.0 start
+
+ 
+
+ mint rf5.0 tdma mode=Master win=5 dist=70 dlp=0 
+
+ mint rf5.0 tdma rssi=-35 turbo
+
+ mint rf5.0 tdma start
+
+ 
+
+   
+
+#MAC Switch config
+
+ switch group 1 add 1 eth0 rf5.0 
+
+ switch group 1 igmp-snooping on
+
+ switch group 1 igmp-snooping router-port on
+
+      # group 1 attached to 'svi1'
+
+ switch group 1 start
+
+ 
+
+ switch start
+
+   
+
+#Switch Virtual Interface config
+
+ svi 1 group 1
+
+   
+
+#SSH server configuration
+
+ sshd start
+
+   
+
+#WEB configurator
+
+ webcfg start
+
+   
+
+#LLDP parameters
+
+ lldp eth0 enable txrx
+
+   
+
+
+Unknown node$3> 
+[16C[K
+[16C
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xebaeba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'conf show\r\n'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:31:24
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$3> 
+[16C[K
+[16Cconf show
+
+# R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+
+
+#Environment
+
+ set CONFIG_GENERATED "WEB INTERFACE"
+
+   
+
+#System parameters
+
+ #Factory password mode: single
+
+ sys name Unknown node
+
+ sys prompt Unknown node
+
+ sys user root
+
+   
+
+#Radio module parameters
+
+ rf rf5.0 grid 40 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 20 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 10 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 5 6050-6425/5,6052-6425/5
+
+ rf rf5.0 band 20
+
+ rf rf5.0 mimo
+
+ rf rf5.0 freq 6060 bitr 130000 sid 10101010 burst
+
+ rf rf5.0 txpwr 0.5 pwrctl 
+
+   
+
+#DFS configuration
+
+ dfs rf5.0 dfsonly
+
+ dfs rf5.0 freq 6060
+
+ dfs rf5.0 cot off
+
+   
+
+#Interfaces parameters
+
+ ifc lo0    127.0.0.1/32
+
+ ifc eth0   media auto mtu 1500 up
+
+ ifc eth0   10.10.20.1/24
+
+ ifc rf5.0  mtu 1500 up
+
+ ifc svi1   info "L2 Management Interface"
+
+ ifc svi1   mtu 1500 up
+
+            # group 1
+
+ ifc svi1   192.168.9.140/24
+
+   
+
+#QoS manager
+
+ qm option dot1p rtp nodscp icmp
+
+   
+
+#MINT configuration
+
+ mint rf5.0 -name "Master"
+
+ mint rf5.0 -nodeid 09978
+
+ mint rf5.0 -type master
+
+ mint rf5.0 -mode fixed
+
+ mint rf5.0 -mulcast 3
+
+ mint rf5.0 -scrambling
+
+ mint rf5.0 -autobitrate
+
+ mint rf5.0 -hiamp 2 -loamp 0
+
+ mint rf5.0 -log
+
+ mint rf5.0 -roaming leader
+
+ mint rf5.0 -authmode public
+
+ mint rf5.0 -airupdate passive
+
+ mint rf5.0 -rcmdserver enabled
+
+ mint rf5.0 start
+
+ 
+
+ mint rf5.0 tdma mode=Master win=5 dist=70 dlp=0 
+
+ mint rf5.0 tdma rssi=-35 turbo
+
+ mint rf5.0 tdma start
+
+ 
+
+   
+
+#MAC Switch config
+
+ switch group 1 add 1 eth0 rf5.0 
+
+ switch group 1 igmp-snooping on
+
+ switch group 1 igmp-snooping router-port on
+
+      # group 1 attached to 'svi1'
+
+ switch group 1 start
+
+ 
+
+ switch start
+
+   
+
+#Switch Virtual Interface config
+
+ svi 1 group 1
+
+   
+
+#SSH server configuration
+
+ sshd start
+
+   
+
+#WEB configurator
+
+ webcfg start
+
+   
+
+#LLDP parameters
+
+ lldp eth0 enable txrx
+
+   
+
+
+Unknown node$3> 
+[16C[K
+[16C
+DEBUG:netmiko:write_channel: b'conf show\r\n'
+DEBUG:netmiko:read_channel: conf show
+
+# R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+
+
+#Environment
+
+ set CONFIG_GENERATED "WEB INTERFACE"
+
+   
+
+#System parameters
+
+ #Factory password mode: single
+
+ sys name Unknown node
+
+ sys prompt Unknown node
+
+ sys user root
+
+   
+
+#Radio module parameters
+
+ rf rf5.0 grid 40 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 20 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 10 6050-6425/5,6052-6425/5
+
+ rf rf5.0 grid 5 6050-6425/5,6052-6425/5
+
+ rf rf5.0 band 20
+
+ rf rf5.0 mimo
+
+ rf rf5.0 freq 6060 bitr 130000 sid 10101010 burst
+
+ rf rf5.0 txpwr 0.5 pwrctl 
+
+   
+
+#DFS configuration
+
+ dfs rf5.0 dfsonly
+
+ dfs rf5.0 freq 6060
+
+ dfs rf5.0 cot off
+
+   
+
+#Interfaces parameters
+
+ ifc lo0    127.0.0.1/32
+
+ ifc eth0   media auto mtu 1500 up
+
+ ifc eth0   10.10.20.1/24
+
+ ifc rf5.0  mtu 1500 up
+
+ ifc svi1   info "L2 Management Interface"
+
+ ifc svi1   mtu 1500 up
+
+            # group 1
+
+ ifc svi1   192.168.9.140/24
+
+   
+
+#QoS manager
+
+ qm option dot1p rtp nodscp icmp
+
+   
+
+#MINT configuration
+
+ mint rf5.0 -name "Master"
+
+ mint rf5.0 -nodeid 09978
+
+ mint rf5.0 -type master
+
+ mint rf5.0 -mode fixed
+
+ mint rf5.0 -mulcast 3
+
+ mint rf5.0 -scrambling
+
+ mint rf5.0 -autobitrate
+
+ mint rf5.0 -hiamp 2 -loamp 0
+
+ mint rf5.0 -log
+
+ mint rf5.0 -roaming leader
+
+ mint rf5.0 -authmode public
+
+ mint rf5.0 -airupdate passive
+
+ mint rf5.0 -rcmdserver enabled
+
+ mint rf5.0 start
+
+ 
+
+ mint rf5.0 tdma mode=Master win=5 dist=70 dlp=0 
+
+ mint rf5.0 tdma rssi=-35 turbo
+
+ mint rf5.0 tdma start
+
+ 
+
+   
+
+#MAC Switch config
+
+ switch group 1 add 1 eth0 rf5.0 
+
+ switch group 1 igmp-snooping on
+
+ switch group 1 igmp-snooping router-port on
+
+      # group 1 attached to 'svi1'
+
+ switch group 1 start
+
+ 
+
+ switch start
+
+   
+
+#Switch Virtual Interface config
+
+ svi 1 group 1
+
+   
+
+#SSH server configuration
+
+ sshd start
+
+   
+
+#WEB configurator
+
+ webcfg start
+
+   
+
+#LLDP parameters
+
+ lldp eth0 enable txrx
+
+   
+
+
+Unknown node$3> 
+[16C[K
+[16C
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x86f3ba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'restart\r\n'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 06:32:15
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$3> 
+[16C[K
+[16Crestart
+
+
+Reboot... Are you sure [y/n] ?
+[30C[K
+[30C
+DEBUG:netmiko:write_channel: b'y\r\n'
+DEBUG:netmiko:read_channel: y
+
+
+
+System restarted
+
+
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x88b0ba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'restart\r\n'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 00:37:41
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$2> 
+[16C[K
+[16Crestart
+
+
+Reboot... Are you sure [y/n] ?
+[30C[K
+[30C
+DEBUG:netmiko:write_channel: b'y\r\n'
+DEBUG:netmiko:read_channel: y
+
+
+
+System restarted
+
+
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0x2070ba30
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nUnknown node / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'restart\r\n'
+DEBUG:netmiko:read_channel: 
+
+
+
+ R5000
+
+ InfiNet Wireless
+
+ www.infinetwireless.com
+
+ 1997-2019, All Rights Reserved
+
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+
+
+Device name: Unknown node
+
+
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+
+
+Uptime: 00:02:15
+
+Last reboot reason: manual restart
+
+*** Please change default Login and Password !!! ***
+
+
+
+
+Unknown node$1> 
+[16C[K
+[16Crestart
+
+
+Reboot... Are you sure [y/n] ?
+[30C[K
+[30C
+DEBUG:netmiko:write_channel: b'y\r\n'
+DEBUG:netmiko:read_channel: y
+
+
+
+System restarted
+
+
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:starting thread (client mode): 0xa4c95eb0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-WANFleX_1.31
+INFO:paramiko.transport:Connected (version 2.0, client WANFleX_1.31)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', '3des-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-md5'] server mac:['hmac-sha1', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexGroup14 specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.9.140: b'08fc368083a94256822879ff6f2566b4'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'WANFleX Access Control\nhello_world / 299978\n\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'restart\r\n'
+DEBUG:netmiko:read_channel: 
+
+ R5000
+ InfiNet Wireless
+ www.infinetwireless.com
+ 1997-2019, All Rights Reserved
+ R5000 WANFleX H08S11-TDMAv2.1.12 * Nov  1 2019 10:22:46 * SN:299978
+ PN:R5000-Mmxb/6X.300.2x200.2x16
+
+Device name: hello_world
+
+  *** Please setup correct DATE & TIME via "date" or "sntp" command ***
+
+Uptime: 2 days 10:13:35
+Last reboot reason: manual restart
+*** Please change default Login and Password !!! ***
+
+hello_world$2> [15C[K[15Crestart
+Reboot... Are you sure [y/n] ?[30C[K[30C
+DEBUG:netmiko:write_channel: b'y\r\n'
+DEBUG:netmiko:read_channel: y
+
+System restarted
+
